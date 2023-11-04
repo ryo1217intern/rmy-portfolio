@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "Josefin Sans", sans-serif;
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+  to {
+    transform: scale(1);
+  }
+}
+
+.word {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+  animation: fade-in 1.5s forwards;
+}
+
+.word1 {
+  animation-delay: 0.3s;
+}
+.word2 {
+  animation-delay: 0.6s;
+}
+.word3 {
+  animation-delay: 0.9s;
+}
+.word4 {
+  animation-delay: 1.2s;
+}
+.word5 {
+  animation-delay: 1.5s;
+}
+.word6 {
+  animation-delay: 1.8s;
+}
+.word7 {
+  animation-delay: 2.1s;
+}
+.word8 {
+  animation-delay: 2.4s;
+}
+.word9 {
+  animation-delay: 2.7s;
+}
+.word10 {
+  animation-delay: 3s;
+}
+.word11 {
+  animation-delay: 3.3s;
+}
+.word12 {
+  animation-delay: 3.6s;
+}
+.word13 {
+  animation-delay: 3.9s;
+}
+.word14 {
+  animation-delay: 4.2s;
+}
+.word15 {
+  animation-delay: 4.5s;
+}
+.word16 {
+  animation-delay: 4.8s;
+}
+.word17 {
+  animation-delay: 5.1s;
+}
+.word18 {
+  animation-delay: 5.4s;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}

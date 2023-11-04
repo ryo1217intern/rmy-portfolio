@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "styles/Home.module.css";
 import Loading from "components/Loading.jsx";
+import Welcome from "@/components/Welcome";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,8 @@ export default function Home() {
       </Head>
       <main>
         <div className={styles.container}>
-          <Loading />
+          {/* <Loading /> */}
+          <Welcome />
         </div>
       </main>
     </>
