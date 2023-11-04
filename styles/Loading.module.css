@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
 .container {
   width: 100%;
   height: 100vh;
 }
+
+/* .text {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+} */
+
 .wrapper {
   width: 200px;
   height: 60px;
@@ -10,6 +18,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .circle {
   width: 20px;
   height: 20px;
