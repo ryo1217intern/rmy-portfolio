@@ -13,6 +13,7 @@
   font-family: "Josefin Sans", sans-serif;
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
   margin: 4px;
+  text-align: center;
 }
 
 @keyframes scale {
@@ -26,6 +27,7 @@
   opacity: 0;
   filter: blur(4px);
   animation: fade-in 1.5s forwards;
+  margin: 0.15em; /* 上下のmarginを設定して行間を開ける */
 }
 
 .word1 {
