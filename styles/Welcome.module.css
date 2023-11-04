@@ -7,12 +7,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
 
 .text {
   font-family: "Josefin Sans", sans-serif;
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  margin: 4px;
 }
 
 @keyframes scale {
